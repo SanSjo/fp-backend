@@ -28,8 +28,8 @@ const BabyRooms = mongoose.model('BabyRooms', {
   openHours: String,
   note: String,
   website: String,
-  latitude: String,
-  longitude: String
+  latitude: Number,
+  longitude: Number
 });
 
 if (process.env.RESET_DB) {
