@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Stadsmuseet",
+    "address": "Norra Hamngatan 12, 411 14 Göteborg",
+    "phone": "031-368 36 00",
+    "openHours": "Tis-sön 10.00-17.00. Kvällsöppet ons 10.00-20.00. Stängt måndagar.",
+    "note": "",
+    "website": "http://goteborgsstadsmuseum.se/",
+    "latitude": 57.7063235,
+    "longitude": 11.963436
+  },
+  {
+    "name": "Antikhallarna",
+    "address": "Västra Hamngatan 6, 411 17 Göteborg",
+    "phone": "031-131 222",
+    "openHours": "Mån-fre 07.30-18.15. Lör 08.30-17.00. Söndag stängt",
+    "note": "",
+    "website": "http://www.antikhallarna.se/",
+    "latitude": 57.7052819,
+    "longitude": 11.963414
+  },
+  {
+    "name": "NK Göteborg",
+    "address": "Östra Hamngatan 42, 411 09 Göteborg",
+    "phone": "031-710 10 00",
+    "openHours": "Mån-fre 10.00-19.00. Lör 10.00-17.00. Sön 12.00-16.00",
+    "note": "",
+    "website": "https://www.nk.se/goteborg/",
+    "latitude": 57.705633,
+    "longitude": 11.968729
+  },
+  {
+    "name": "Vanilla",
+    "address": "Kyrkogatan 38, 411 15 Göteborg",
+    "phone": "031 711 62 20",
+    "openHours": "Mån-sön 08.00-22.30",
+    "note": "",
+    "website": "http://hotellvanilla.se",
+    "latitude": 57.705204,
+    "longitude": 11.966968
+  },
+  {
+    "name": "Da Matteo",
+    "address": "Viktoriapassagen, Vallgatan 5, 411 16 Göteborg",
+    "phone": "031 13 06 09",
+    "openHours": "Mån-fre 10.00-19.00. Lördag 10.00-18.00. Söndag 10.00-18.00",
+    "note": "",
+    "website": "http://damatteo.se",
+    "latitude": 57.703323,
+    "longitude": 11.965621
+  },
+  {
+    "name": "Kafé Marmelad",
+    "address": "Mariagatan 17, 414 71 Göteborg",
+    "phone": "031 42 12 90",
+    "openHours": "Mån-sön 10.00-19.00",
+    "note": "",
+    "website": "http://www.marmelad.se",
+    "latitude": 57.685587,
+    "longitude": 11.918362
+  },
+  {
+    "name": "Eva’s Paley",
+    "address": "Kungsportsavenyn 39, 411 36 Göteborg",
+    "phone": "031 16 55 70",
+    "openHours": "Mån-tor 07.30-22.00. Fre 07.30-00.00. Lördag 09.00-00.00. Söndag 09.00-22.00",
+    "note": "",
+    "website": "http://www.evaspaly.se",
+    "latitude": 57.698317,
+    "longitude": 11.977527
+  },
+  {
+    "name": "Lasse-Maja",
+    "address": "Billdalsvägen 2, 427 36 Billdal",
+    "phone": "031 69 00 33",
+    "openHours": "Mån-Fre 07.00-18.00. Lör-Sön 08.00-16.00",
+    "note": "",
+    "website": "http://www.lassemajabageri.com",
+    "latitude": 57.586134,
+    "longitude": 11.939362
+  },
+  {
+    "name": "Le pain Francais",
+    "address": "Kungsportsavenyen 7, 411 36 Göteborg",
+    "phone": "031 13 10 40",
+    "openHours": "Mån-tors 07.00-01.00. Fre 07.00-03.00. Lör 08.00-03.00. Sön 09.00-01.00",
+    "note": "",
+    "website": "http://lepainfrancais.se",
+    "latitude": 57.701207,
+    "longitude": 11.973314
+  },
+  {
+    "name": "Rosencaféet",
+    "address": "Slussgatan 1, 411 06 Göteborg",
+    "phone": "031 80 29 70",
+    "openHours": "Mån-sön 10.00-18.00",
+    "note": "",
+    "website": "http://rosenkafeet.se",
+    "latitude": 57.707117,
+    "longitude": 11.974944
+  },
+  {
+    "name": "Bertilssons stuga",
+    "address": "Delsjökärrvägen 26, 412 76 Göteborg",
+    "phone": "031 98 70 74",
+    "openHours": "Mån: stängt. Tis-fre 11.00-16.00. Lör-sön 11.00-17.00",
+    "note": "",
+    "website": "http://bertilssonsstuga.se",
+    "latitude": 57.685229,
+    "longitude": 12.086292
+  },
+  {
+    "name": "Gunnebo kaffehus och krog",
+    "address": "Christina Halls väg 16, 431 36 Mölndal",
+    "phone": "031-334 16 14",
+    "openHours": "Mån-sön 11.00-16.00",
+    "note": "",
+    "website": "http://gunneboslott.se",
+    "latitude": 57.658376,
+    "longitude": 12.060203
+  },
+  {
+    "name": "Pasta +",
+    "address": "Södra Vägen 2, 412 54 Göteborg",
+    "phone": "031 16 56 00",
+    "openHours": "Mån-fre 15.00-22.30. Lör 15.00-23.00. Sön 15.00-21.00",
+    "note": "",
+    "website": "http://pastaplus.com",
+    "latitude": 57.699579,
+    "longitude": 11.980156
+  },
+  {
+    "name": "Universeum",
+    "address": "Södra Vägen 50, 400 20 Göteborg",
+    "phone": "031-335 64 50",
+    "openHours": "Mån-sön 10-18, för undantag se hemsida",
+    "note": "",
+    "website": "https://www.universeum.se/sv/",
+    "latitude": 57.69585,
+    "longitude": 11.98834
+  },
+  {
+    "name": "Alfons Åbergs Kulturhus",
+    "address": "Slussgatan 1, 411 06 Göteborg",
+    "phone": "031-15 42 80",
+    "openHours": "Mån-sön 10-16",
+    "note": "Här finns blöjor",
+    "website": "http://alfonskulturhus.se/",
+    "latitude": 57.70711,
+    "longitude": 11.97494
+  },
+  {
+    "name": "Göteborgs konstmuseum",
+    "address": "Götaplatsen, 412 56 Göteborg",
+    "phone": "031-368 35 00",
+    "openHours": "Tis, tor kl 11–18, Ons kl 11–20, Fre–sön samt helgdag kl 11–17, Mån stängt",
+    "note": "",
+    "website": "http://goteborgskonstmuseum.se/",
+    "latitude": 57.6972,
+    "longitude": 11.97948
+  },
+  {
+    "name": "Göteborgs naturhistoriska museum",
+    "address": "Museivägen 10, 413 11 Göteborg",
+    "phone": "010-441 44 01",
+    "openHours": "Tis-sön kl. 11.00-17.00, tor kl. 11.00-20.00, Mån stängt",
+    "note": "",
+    "website": "http://www.gnm.se/",
+    "latitude": 57.68918,
+    "longitude": 11.94901
+  },
+  {
+    "name": "Sjöfartsmuseet",
+    "address": "Karl Johansgatan 1, 414 59 Göteborg",
+    "phone": "031-368 35 50",
+    "openHours": "Tis–sön: 10–17, Ons: 10–20",
+    "note": "",
+    "website": "https://www.sjofartsmuseetakvariet.se/",
+    "latitude": 57.69884,
+    "longitude": 11.93284
+  },
+  {
+    "name": "Café Azalea",
+    "address": "Vedbacken 1, 41476 Göteborg",
+    "phone": "031-419282",
+    "openHours": "mån-sön 9-16",
+    "note": "",
+    "website": "https://www.facebook.com/pg/azaleacafe/about/",
+    "latitude": 57.6843,
+    "longitude": 11.93581
+  }
+]
