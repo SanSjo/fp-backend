@@ -57,6 +57,23 @@ const BabyRooms = mongoose.model('BabyRooms', {
   available: Boolean
 });
 
+const Comment = mongoose.model('Comment', {
+  comment: {
+    type: String,
+    required: true,
+    minLength: 5,
+    minLength: 140
+  },
+  like: {
+    type: Number,
+    default: 0
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now
+  }
+});
+
 if (process.env.RESET_DB) {
   const seedDatabase = async () => {
     await BabyRooms.deleteMany();
@@ -90,9 +107,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Start defining your routes here
-app.get('/', (req, res) => {
-  res.send('BabyRoom');
-});
 
 app.get('/findBabyRooms', async (req, res) => {
   const babyRooms = await BabyRooms.find();
@@ -110,6 +124,41 @@ app.get('/malmoBabyRooms', async (req, res) => {
   const malmoBabyRoom = await BabyRoomMalmo.find();
   console.log(malmoBabyRoom);
   res.json(malmoBabyRoom);
+});
+
+/// Comment endpoint
+
+app.get('/', async (req, res) => {
+  const comment = await Comment.find()
+    .sort({ createdAt: 'desc' })
+    .limit(20);
+  res.json(comment);
+});
+
+app.post('/', async (req, res) => {
+  const comment = new Comment({ message: req.body.message });
+
+  try {
+    const savedComment = await comment.save();
+    res.status(201).json(savedComment);
+  } catch (err) {
+    res.status(400).json({
+      message: 'could not add a comment to the api',
+      error: err.errors
+    });
+  }
+});
+
+app.post('/:id/like', async (req, res) => {
+  try {
+    const commentLiked = await Comment.findOneAndUpdate(
+      { _id: req.params.id },
+      { $inc: { heart: 1 } }
+    );
+    res.status(201).json(commentLiked);
+  } catch (err) {
+    res.status(404).json({ message: 'could not add like' });
+  }
 });
 
 // Start the server
