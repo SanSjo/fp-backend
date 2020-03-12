@@ -53,7 +53,8 @@ const BabyRooms = mongoose.model('BabyRooms', {
   note: String,
   website: String,
   latitude: Number,
-  longitude: Number
+  longitude: Number,
+  available: Boolean
 });
 
 if (process.env.RESET_DB) {
