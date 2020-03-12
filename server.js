@@ -47,7 +47,7 @@ const BabyRoomGbg = mongoose.model('BabyRoomGbg', {
 
 const BabyRooms = mongoose.model('BabyRooms', {
   name: String,
-  adress: String,
+  address: String,
   phone: String,
   openHours: String,
   note: String,
