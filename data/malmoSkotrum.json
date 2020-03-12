@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Emporia",
+    "address": "Hyllie Boulevard 19, 215 32 Malmö",
+    "phone": "040-363600",
+    "openHours": "mån-sön 10:00-20:00",
+    "note": "",
+    "website": "http://se.club-onlyou.com/Emporia",
+    "latitude": 55.563517,
+    "longitude": 12.975219
+  },
+  {
+    "name": "Pizza Hut",
+    "address": "Bronsåldersgatan 18, 213 76 Malmö",
+    "phone": "040-300077",
+    "openHours": "mån-Fre 10.00-22.00\\nlör 11.00-22.00\\nsön 11.00-22.00",
+    "note": "",
+    "website": "http://www.pizzahut.se/restauranger",
+    "latitude": 55.550663,
+    "longitude": 13.033783
+  },
+  {
+    "name": "Restaurang Smak",
+    "address": "S:t Johannesgatan 7, 211 46 Malmö",
+    "phone": "040-505035",
+    "openHours": "mån-sön 11.00-17.00",
+    "note": "",
+    "website": "http://smak.info/",
+    "latitude": 55.595279,
+    "longitude": 12.998797
+  },
+  {
+    "name": "Via Napoli",
+    "address": "Sergels Väg 11A, 217 57 Malmö",
+    "phone": "040-268400",
+    "openHours": "mån-sön 12.00-21.00",
+    "note": "",
+    "website": "https://vianapoli.se/",
+    "latitude": 55.601595,
+    "longitude": 12.97475
+  },
+  {
+    "name": "V.E.S.P.A",
+    "address": "Kanalgatan 3, 211 40 Malmö",
+    "phone": "040-127147",
+    "openHours": "mån-sön 12.00-22.00",
+    "note": "",
+    "website": "http://www.vespa.nu",
+    "latitude": 55.601829,
+    "longitude": 13.001728
+  },
+  {
+    "name": "Restaurant & Café Gustav Adolf",
+    "address": "Gustav Adolfs Torg 43, 211 39 Malmö",
+    "phone": "040-6112272",
+    "openHours": "mån-sön 11.00-23.00",
+    "note": "",
+    "website": "http://www.gustavadolf.com",
+    "latitude": 55.603344,
+    "longitude": 13.000712
+  },
+  {
+    "name": "Conditori Tessina",
+    "address": "Tessins Väg 16, 217 58 Malmö",
+    "phone": "040-978710",
+    "openHours": "sön-mån Stängt\\ntis-fre 07.00-18.00\\nlör 07.00-14.00",
+    "note": "",
+    "website": "http://www.conditoritessina.se",
+    "latitude": 55.599586,
+    "longitude": 12.973361
+  },
+  {
+    "name": "Melvins kaffebar",
+    "address": "Skvadronsgatan 16, 217 49 Malmö",
+    "phone": "040-261212",
+    "openHours": "mån-sön 09.30-18.00",
+    "note": "",
+    "website": "saknar hemsida",
+    "latitude": 55.597444,
+    "longitude": 12.979222
+  },
+  {
+    "name": "Kafé Doffeln",
+    "address": "Bo Widerbergs Plats 6, 214 21 Malmö",
+    "phone": "072-9274444",
+    "openHours": "mån-fre 06.00-19.00 \\nlör-sön 08.00-17.00",
+    "note": "",
+    "website": "http://doffeln.se",
+    "latitude": 55.592261,
+    "longitude": 13.001668
+  },
+  {
+    "name": "V.E.S.P.A",
+    "address": "Sundspromenaden 9, 211 16 Malmö",
+    "phone": "040-129044",
+    "openHours": "mån–fre 11.30- \\nlör– sön 12.00-",
+    "note": "",
+    "website": "http://www.vespa.nu",
+    "latitude": 55.610181,
+    "longitude": 12.973669
+  },
+  {
+    "name": "Espresso House",
+    "address": "Skomakaregatan 2, 211 34 Malmö",
+    "phone": "010-5101101",
+    "openHours": "mån - fre 07.30-20.00\\nlör 08.00-19.00\\nsön 09.00-18.00",
+    "note": "",
+    "website": "https://espressohouse.com/coffee-shops/skomakaregatan/",
+    "latitude": 55.604524,
+    "longitude": 13.000772
+  },
+  {
+    "name": "Espresso House",
+    "address": "Lilla Torg 2, 211 34 Malmö",
+    "phone": "010-5101168",
+    "openHours": "mån–fre 08.00-20.00 lör 09.00-20.00 Sön 10.00-20.00",
+    "note": "",
+    "website": "https://espressohouse.com/coffee-shops/skomakaregatan/",
+    "latitude": 55.60536,
+    "longitude": 12.999319
+  },
+  {
+    "name": "Espresso House",
+    "address": "St. Johannesgatan 3W, 211 46, Malmö",
+    "phone": "010-5101230",
+    "openHours": "mån–fre 10.00-20.00 lör–sön 10.00-18.00",
+    "note": "",
+    "website": "https://espressohouse.com/coffee-shops/skomakaregatan/",
+    "latitude": 55.595356,
+    "longitude": 13.001532
+  },
+  {
+    "name": "Espresso House",
+    "address": "Sundspromenaden 19, 211 19, Malmö",
+    "phone": "010-5101117",
+    "openHours": "mån–lör 08.00-19.00\\nlör 08.00-19.00\\nsön 09.00-19.00",
+    "note": "",
+    "website": "https://espressohouse.com/coffee-shops/skomakaregatan/",
+    "latitude": 55.610505,
+    "longitude": 12.973246
+  },
+  {
+    "name": "Espresso House",
+    "address": "Davidshallstorg 7, 211 45 Malmö",
+    "phone": "010-5101156",
+    "openHours": "mån–fre 07.00-18.00 lör 09.00-18.00 sön 09.30-18.00",
+    "note": "",
+    "website": "https://espressohouse.com/coffee-shops/skomakaregatan/",
+    "latitude": 55.59891,
+    "longitude": 12.997875
+  },
+  {
+    "name": "Espresso House",
+    "address": "Kulthusgatan 3, 215 86 Malmö",
+    "phone": "040-6003009",
+    "openHours": "mån-fre 10.00-20.00\\nlör-sön 10.00-18.00",
+    "note": "",
+    "website": "https://espressohouse.com/coffee-shops/skomakaregatan/",
+    "latitude": 55.552564,
+    "longitude": 12.987281
+  },
+  {
+    "name": "Kockum Fritiden Café & Restaurang",
+    "address": "Västra Varvsgatan 8, 211 11 Malmö",
+    "phone": "040–304083",
+    "openHours": "mån–tor 07.30-20.00\\nfre 07.30-16.00\\nlör–sön 10.00-16.00",
+    "note": "",
+    "website": "http://kockumfritid.se/restaurang/",
+    "latitude": 55.60815,
+    "longitude": 12.977251
+  },
+  {
+    "name": "Triangeln",
+    "address": "Södra Förstadsgatan 41, 211 43 Malmö",
+    "phone": "040-230206",
+    "openHours": "mån-fre 10.00-20.00 lör-sön 10.00-18.00",
+    "note": "Det behövs en kod till toaletten med skötbord men den går att få från butiker/restauranger i gallerian.",
+    "website": "http://triangeln.com/kontakta",
+    "latitude": 55.595772,
+    "longitude": 13.002871
+  },
+  {
+    "name": "Restaurang Wega",
+    "address": "Malmöhusvägen 6, 211 18 Malmö",
+    "phone": "040-344437",
+    "openHours": "mån-fre: 09.00-17.00, lör-sön: 10.00-17.00",
+    "note": "",
+    "website": "http://www.restaurangwega.se/",
+    "latitude": 55.604551,
+    "longitude": 12.987694
+  },
+  {
+    "name": "Teknikens och Sjöfartens hus 4",
+    "address": "Malmöhusvägen 7A, 211 18 Malmö",
+    "phone": "040-341000",
+    "openHours": "mån-sön 10.00-17.00",
+    "note": "",
+    "website": "http://malmo.se/museer",
+    "latitude": 55.604546,
+    "longitude": 12.982512
+  },
+  {
+    "name": "Moderna Museet Malmö",
+    "address": "Ola Billgrens plats 2–4, Malmö",
+    "phone": "040-6857937",
+    "openHours": "tis–fre 11.00–18.00\\nlör-sön 11.00-17.00\\nmån stängt",
+    "note": "",
+    "website": "https://www.modernamuseet.se/malmo/sv/",
+    "latitude": 55.604604,
+    "longitude": 13.009676
+  },
+  {
+    "name": "Malmö Konsthall",
+    "address": "S:t Johannesgatan 7, 205 80 Malmö",
+    "phone": "040-341286",
+    "openHours": "tors-tis 11.00-17.00\\nons 11.00-21.00",
+    "note": "Toaletten med skötbord är låst men man kan hämta nyckel i receptionen.",
+    "website": "http://www.konsthall.malmo.se",
+    "latitude": 55.595232,
+    "longitude": 12.998879
+  },
+  {
+    "name": "Form/Design Center",
+    "address": "Lilla Torg 9, 203 14 Malmö",
+    "phone": "040-6645150",
+    "openHours": "tis-lör 11.00-17.00\\nsön 12.00-16.00",
+    "note": "",
+    "website": "http://www.formdesigncenter.com",
+    "latitude": 55.604414,
+    "longitude": 12.99902
+  },
+  {
+    "name": "Malmö Entré",
+    "address": "Östra Förstadsgatan 56, 212 12 Malmö",
+    "phone": "040-6200050",
+    "openHours": "mån-fre\\n10.00-20.00\\nlör-sön\\n10.00-18.00",
+    "note": "",
+    "website": "http://www.entremalmo.se/sv/Entre/Om-Entre/Kontakt",
+    "latitude": 55.606263,
+    "longitude": 13.023006
+  },
+  {
+    "name": "Malmö Caroli",
+    "address": "Östergatan 12, 211 25 Malmö",
+    "phone": "040-6280891",
+    "openHours": "mån-fre 10.00-19.00\\nlör 10.00-17.00, sön 11.00-17.00",
+    "note": "",
+    "website": "http://caroli.se",
+    "latitude": 55.607721,
+    "longitude": 13.007126
+  },
+  {
+    "name": "Mobilia",
+    "address": "PER ALBIN HANSSONS VÄG 40, 214 32 MALMÖ",
+    "phone": "0702-012200",
+    "openHours": "mån-fre 10.00-20.00\\nlör-sön 10.00-18.00",
+    "note": "Finns familjerum och skötbord",
+    "website": "https://mobilia.se",
+    "latitude": 55.580169,
+    "longitude": 13.00362
+  },
+  {
+    "name": "Hansa",
+    "address": "Stora Nygatan 50-56, 211 37 Malmö",
+    "phone": "040-77000",
+    "openHours": "mån-fre\\n10.00–19.00\\nlör 10.00–17.00 sön 12.00–17.00",
+    "note": "",
+    "website": "http://hansamalmo.se",
+    "latitude": 55.603427,
+    "longitude": 13.002924
+  },
+  {
+    "name": "Jägersro Center",
+    "address": "Jägersrovägen 151, 213 75 Malmö",
+    "phone": "073-1498432",
+    "openHours": "mån-fre 10.00-20.00\\nlör 10.00-17.00\\nsön11.00-17.00",
+    "note": "",
+    "website": "http://www.jagersrocenter.se",
+    "latitude": 55.569839,
+    "longitude": 13.058924
+  },
+  {
+    "name": "Wayne's Coffee",
+    "address": "Lilla Varvsgatan 20, 211 75 Malmö",
+    "phone": "072-0162223",
+    "openHours": "mån-fre 07.30-19.00 \\nlör 09.00-18.00 \\nsön 09.00-18.00",
+    "note": "",
+    "website": "http://www.waynescoffee.se",
+    "latitude": 55.614052,
+    "longitude": 12.982874
+  },
+  {
+    "name": "Wayne's Coffee",
+    "address": "Södra förstadsgatan 10 A, 211 43 Malmö",
+    "phone": "040 - 301212",
+    "openHours": "mån-sön 09.00-22.00",
+    "note": "",
+    "website": "http://www.waynescoffee.se",
+    "latitude": 55.600078,
+    "longitude": 13.001194
+  },
+  {
+    "name": "Wayne's Coffee",
+    "address": "Dag Hammarskjölds torg 7, 211 18 Malmö",
+    "phone": "079-3332333",
+    "openHours": "mån-fre 07.30-20.00 lör-sön 10.00-19.00",
+    "note": "",
+    "website": "http://www.waynescoffee.se",
+    "latitude": 55.608147,
+    "longitude": 12.992638
+  },
+  {
+    "name": "Marmors bageri",
+    "address": "Spångatan 11, 211 44 MALMÖ",
+    "phone": "040-6365582",
+    "openHours": "mån–Fre 06.00–19.00\\nlör 07.00-19.00\\nsön 07.00-18.00",
+    "note": "",
+    "website": "http://www.mormors.se/kontakt-32080175",
+    "latitude": 55.596023,
+    "longitude": 13.005274
+  }
+]

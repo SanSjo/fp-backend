@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 
 import skotrum from './data/skotrum.json';
 import gbgSkotrum from './data/gbgSkotrum.json';
+import malmoSkotrum from './data/malmoSkotrum.json';
 
 const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost/skotrum-finalP';
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -21,6 +22,17 @@ mongoose.Promise = Promise;
 //   "longitude": 18.082,
 //   "coordinates": "59.33660, 18.08200"
 // },
+
+const BabyRoomMalmo = mongoose.model('BabyRoomMalmo', {
+  name: String,
+  address: String,
+  phone: String,
+  openHours: String,
+  note: String,
+  website: String,
+  latitude: Number,
+  longitude: Number
+});
 
 const BabyRoomGbg = mongoose.model('BabyRoomGbg', {
   name: String,
@@ -48,6 +60,7 @@ if (process.env.RESET_DB) {
   const seedDatabase = async () => {
     await BabyRooms.deleteMany();
     await BabyRoomGbg.deleteMany();
+    await BabyRoomMalmo.deleteMany();
 
     skotrum.forEach(restData => {
       new BabyRooms(restData).save();
@@ -55,6 +68,10 @@ if (process.env.RESET_DB) {
 
     gbgSkotrum.forEach(restData => {
       new BabyRoomGbg(restData).save();
+    });
+
+    malmoSkotrum.forEach(restData => {
+      new BabyRoomMalmo(restData).save();
     });
   };
   seedDatabase();
@@ -86,6 +103,12 @@ app.get('/gbgBabyRooms', async (req, res) => {
   const gbgBabyRoom = await BabyRoomGbg.find();
   console.log(gbgBabyRoom);
   res.json(gbgBabyRoom);
+});
+
+app.get('/malmoBabyRooms', async (req, res) => {
+  const malmoBabyRoom = await BabyRoomMalmo.find();
+  console.log(malmoBabyRoom);
+  res.json(malmoBabyRoom);
 });
 
 // Start the server
