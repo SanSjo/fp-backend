@@ -107,6 +107,16 @@ app.use(bodyParser.json());
 
 // Start defining your routes here
 
+
+app.get('/findBabyRooms/', async (req, res) => {
+  const babyRooms = await BabyRooms.find();
+
+  res.json(babyRooms);
+
+  console.log(babyRooms);
+
+});
+
 app.get('/findBabyRooms/:id', async (req, res) => {
   const babyRooms = await BabyRooms.findById(req.params.id);
   if (babyRooms) {
@@ -133,9 +143,18 @@ app.get('/malmoBabyRooms', async (req, res) => {
 /// Comment endpoint
 
 app.get('/', async (req, res) => {
-  const comment = await Comment.findById(req.params.id)
+  const comment = await Comment.find()
     .sort({ createdAt: 'desc' })
     .limit(20);
+
+  res.json(comment);
+
+
+});
+
+app.get('/:id', async (req, res) => {
+  const comment = await Comment.findById(req.params.id)
+
   if (comment) {
     res.json(comment);
   } else {
