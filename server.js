@@ -60,7 +60,6 @@ const BabyRooms = mongoose.model('BabyRooms', {
 const Comment = mongoose.model('Comment', {
   comment: {
     type: String,
-    required: true,
     minLength: 5,
     minLength: 140
   },
@@ -136,7 +135,7 @@ app.get('/', async (req, res) => {
 });
 
 app.post('/', async (req, res) => {
-  const comment = new Comment({ message: req.body.message });
+  const comment = new Comment({ comment: req.body.comment });
 
   try {
     const savedComment = await comment.save();
