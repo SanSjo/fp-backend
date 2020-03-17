@@ -107,10 +107,15 @@ app.use(bodyParser.json());
 
 // Start defining your routes here
 
-app.get('/findBabyRooms', async (req, res) => {
-  const babyRooms = await BabyRooms.find();
+app.get('/findBabyRooms/:id', async (req, res) => {
+  const babyRooms = await BabyRooms.findById(req.params.id);
+  if (babyRooms) {
+    res.json(babyRooms);
+  } else {
+    res.status(404).json({ error: 'babyroom not found' })
+  }
   console.log(babyRooms);
-  res.json(babyRooms);
+
 });
 
 app.get('/gbgBabyRooms', async (req, res) => {
@@ -128,17 +133,22 @@ app.get('/malmoBabyRooms', async (req, res) => {
 /// Comment endpoint
 
 app.get('/', async (req, res) => {
-  const comment = await Comment.find()
+  const comment = await Comment.findById(req.params.id)
     .sort({ createdAt: 'desc' })
     .limit(20);
-  res.json(comment);
+  if (comment) {
+    res.json(comment);
+  } else {
+    res.status(404).json({ error: 'babyroom not found' })
+  }
+
 });
 
 app.post('/', async (req, res) => {
   const comment = new Comment({ comment: req.body.comment });
 
   try {
-    const savedComment = await Comment.save();
+    const savedComment = await comment.save();
     res.status(201).json(savedComment);
   } catch (err) {
     res.status(400).json({
