@@ -138,7 +138,7 @@ app.post('/', async (req, res) => {
   const comment = new Comment({ comment: req.body.comment });
 
   try {
-    const savedComment = await comment.save();
+    const savedComment = await Comment.save();
     res.status(201).json(savedComment);
   } catch (err) {
     res.status(400).json({
