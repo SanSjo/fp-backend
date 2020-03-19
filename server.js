@@ -163,8 +163,8 @@ app.get('/:id', async (req, res) => {
 
 });
 
-app.post('/', async (req, res) => {
-  const comment = new Comment({ comment: req.body.comment });
+app.post('/:id', async (req, res) => {
+  const comment = new Comment({ comment: req.body.comment })
 
   try {
     const savedComment = await comment.save();
