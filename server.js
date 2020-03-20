@@ -107,14 +107,12 @@ app.use(bodyParser.json());
 
 // Start defining your routes here
 
-
 app.get('/findBabyRooms/', async (req, res) => {
   const babyRooms = await BabyRooms.find();
 
   res.json(babyRooms);
 
   console.log(babyRooms);
-
 });
 
 app.get('/findBabyRooms/:id', async (req, res) => {
@@ -122,10 +120,9 @@ app.get('/findBabyRooms/:id', async (req, res) => {
   if (babyRooms) {
     res.json(babyRooms);
   } else {
-    res.status(404).json({ error: 'babyroom not found' })
+    res.status(404).json({ error: 'babyroom not found' });
   }
   console.log(babyRooms);
-
 });
 
 app.get('/gbgBabyRooms', async (req, res) => {
@@ -148,23 +145,20 @@ app.get('/', async (req, res) => {
     .limit(20);
 
   res.json(comment);
-
-
 });
 
 app.get('/:id', async (req, res) => {
-  const comment = await Comment.findById(req.params.id)
+  const comment = await Comment.findById(req.params.id);
 
   if (comment) {
     res.json(comment);
   } else {
-    res.status(404).json({ error: 'babyroom not found' })
+    res.status(404).json({ error: 'babyroom not found' });
   }
-
 });
 
-app.post('/:id', async (req, res) => {
-  const comment = new Comment({ comment: req.body.comment })
+app.post('/', async (req, res) => {
+  const comment = new Comment({ comment: req.body.comment });
 
   try {
     const savedComment = await comment.save();
