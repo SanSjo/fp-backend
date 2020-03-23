@@ -11,18 +11,6 @@ const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost/skotrum-finalP';
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = Promise;
 
-// {
-//   "name": "Aubergine",
-//   "address": "Linnégatan 38, 114 47 Stockholm",
-//   "phone": "08-6600204",
-//   "openHours": "mån-tis 11.30–23.00, ons-tor 11.30–00.00, fre 11.30–01.00, lör 17.00–01.00, sön stängt",
-//   "note": "Inget riktigt skötbord, men bra yta för blöjbyte.",
-//   "website": "http://aubergine.se/",
-//   "latitude": 59.3366,
-//   "longitude": 18.082,
-//   "coordinates": "59.33660, 18.08200"
-// },
-
 const BabyRoomMalmo = mongoose.model('BabyRoomMalmo', {
   name: String,
   address: String,
@@ -144,12 +132,6 @@ app.get('/', async (req, res) => {
     .sort({ createdAt: 'desc' })
     .limit(20);
 
-  res.json(comment);
-});
-
-app.get('/:id', async (req, res) => {
-  const comment = await Comment.findById(req.params.id);
-
   if (comment) {
     res.json(comment);
   } else {
@@ -168,18 +150,6 @@ app.post('/', async (req, res) => {
       message: 'could not add a comment to the api',
       error: err.errors
     });
-  }
-});
-
-app.post('/:id/like', async (req, res) => {
-  try {
-    const commentLiked = await Comment.findOneAndUpdate(
-      { _id: req.params.id },
-      { $inc: { heart: 1 } }
-    );
-    res.status(201).json(commentLiked);
-  } catch (err) {
-    res.status(404).json({ message: 'could not add like' });
   }
 });
 
