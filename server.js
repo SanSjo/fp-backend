@@ -46,6 +46,14 @@ const BabyRooms = mongoose.model('BabyRooms', {
 });
 
 const Comment = mongoose.model('Comment', {
+  name: {
+    type: String,
+    required: true
+  },
+  email: {
+    type: String,
+    required: true
+  },
   comment: {
     type: String,
     minLength: 5,
@@ -140,9 +148,9 @@ app.get('/', async (req, res) => {
 });
 
 app.post('/', async (req, res) => {
-  const comment = new Comment({ comment: req.body.comment });
-
   try {
+    const { name, email, comment } = req.body;
+    const comment = new Comment({ name, email, comment });
     const savedComment = await comment.save();
     res.status(201).json(savedComment);
   } catch (err) {
