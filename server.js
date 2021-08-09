@@ -7,9 +7,13 @@ import skotrum from './data/skotrum.json';
 import gbgSkotrum from './data/gbgSkotrum.json';
 import malmoSkotrum from './data/malmoSkotrum.json';
 
-const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost/skotrum-finalP';
-mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
+//const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost:27017/skotrum-finalP';
+const mongoURI = 'mongodb+srv://sansjo:technigo19@cluster0.xevnw.mongodb.net/skotrum-finalP?retryWrites=true&w=majority'
+
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+
 mongoose.Promise = Promise;
+
 
 const BabyRoomMalmo = mongoose.model('BabyRoomMalmo', {
   name: String,
@@ -30,8 +34,9 @@ const BabyRoomGbg = mongoose.model('BabyRoomGbg', {
   note: String,
   website: String,
   latitude: Number,
-  longitude: Number
+  longitude: Number,
 });
+
 
 const BabyRooms = mongoose.model('BabyRooms', {
   name: String,
@@ -102,6 +107,8 @@ app.get('/findBabyRooms/', async (req, res) => {
 
   console.log(babyRooms);
 });
+
+
 
 app.get('/findBabyRooms/:id', async (req, res) => {
   const babyRooms = await BabyRooms.findById(req.params.id);
