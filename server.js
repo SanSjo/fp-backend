@@ -68,9 +68,14 @@ const Comment = mongoose.model('Comment', {
 
 if (process.env.RESET_DB) {
   const seedDatabase = async () => {
-    await BabyRooms.deleteMany();
-    await BabyRoomGbg.deleteMany();
-    await BabyRoomMalmo.deleteMany();
+    try{
+      await BabyRooms.deleteMany();
+      await BabyRoomGbg.deleteMany();
+      await BabyRoomMalmo.deleteMany();
+    } catch (error) {
+      console.log(error)
+      process.exit(1);
+    }
 
     skotrum.forEach(restData => {
       new BabyRooms(restData).save();
