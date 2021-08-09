@@ -1,7 +1,15 @@
-# Express Starter Project
+# BACKEND CODE TO FINAL PROJECT
+This project is the backend code to my nursing (Skötrum) app I did for my final project at Technigo.
 
-This project includes the packages and babel setup for an express server, and is just meant to make things a little simpler to get up and running with.
+# TECHNOLOGIES
+I used NodeJs and Express together with mongoose to create mongoose models and RESTful endpoint. I created a GET endpoint to get the data from my mongoose models. And a POST endpoint to be able to post comments.
 
-## Getting started
+I created the data myself in excel and the I used https://www.csvjson.com/ to vonert the data to json. 
 
-Install dependencies with `npm install`, then start the server by running `npm run dev`
+# DEPLOYED
+
+Here is the deployed link from heroku: https://babyrooms.herokuapp.com/
+
+
+
+
