@@ -10,7 +10,7 @@ import malmoSkotrum from './data/malmoSkotrum.json';
 //const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost:27017/skotrum-finalP';
 const mongoURI = 'mongodb+srv://sansjo:technigo19@cluster0.xevnw.mongodb.net/skotrum-finalP?retryWrites=true&w=majority'
 
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true }).catch(err => console.log(err));
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 mongoose.Promise = Promise;
 
