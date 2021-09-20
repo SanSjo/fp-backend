@@ -6,6 +6,12 @@ I used NodeJs and Express together with mongoose to create mongoose models and R
 
 I created the data myself in excel and the I used https://www.csvjson.com/ to vonert the data to json. 
 
+# Usage
+```bash
+npm install
+npm run dev
+```
+
 # DEPLOYED
 
 Here is the deployed link from heroku: https://babyrooms.herokuapp.com/
