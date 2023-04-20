@@ -38,16 +38,6 @@ const babyroomgbg = new Schema({
 	longitude: Number,
 });
 const BabyRoomGbg = mongoose.model("BabyRoomGbg", babyroomgbg);
-// const BabyRoomGbg = mongoose.model("BabyRoomGbg", {
-// 	name: String,
-// 	address: String,
-// 	phone: String,
-// 	openHours: String,
-// 	note: String,
-// 	website: String,
-// 	latitude: Number,
-// 	longitude: Number,
-// });
 
 const babyrooms = new Schema({
 	name: String,
