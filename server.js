@@ -27,17 +27,6 @@ const babyroommalmo = new Schema({
 });
 const BabyRoomMalmo = mongoose.model("BabyRoomMalmo", babyroommalmo);
 
-// const BabyRoomMalmo = mongoose.model("BabyRoomMalmo", {
-// 	name: String,
-// 	address: String,
-// 	phone: String,
-// 	openHours: String,
-// 	note: String,
-// 	website: String,
-// 	latitude: Number,
-// 	longitude: Number,
-// });
-
 const babyroomgbg = new Schema({
 	name: String,
 	address: String,
