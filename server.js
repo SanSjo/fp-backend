@@ -162,7 +162,7 @@ app.get("/malmoBabyRooms", async (req, res) => {
 	res.json(malmoBabyRoom);
 });
 
-/// Comment endpoint
+// Comment endpoint
 
 app.get("/", async (req, res) => {
 	const comment = await Comment.find().sort({ createdAt: "desc" }).limit(20);
